@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.czhsoft.liuhecai.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="妈妈的六合彩"
+        android:textSize="@dimen/abc_action_bar_title_text_size" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="刷新数据" />
+
+    <TextView
+        android:id="@+id/textViewNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNow"
+        android:layout_below="@+id/textViewJieguo"
+        android:layout_marginTop="64dp"
+        android:text="下一期"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="38dp"
+        android:text="第几期"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewJieguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewNow"
+        android:layout_below="@+id/textViewNow"
+        android:layout_marginTop="78dp"
+        android:text="结果:点刷新就可以看见"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
